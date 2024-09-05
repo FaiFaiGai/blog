@@ -1,0 +1,4 @@
+[submodule "faifaigaiBlog/public"]
+	path = faifaigaiBlog/public
+	url = https://github.com/FaiFaiGai/faifaigai.github.io.git
+	branch = main

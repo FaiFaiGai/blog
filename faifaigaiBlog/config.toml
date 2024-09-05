@@ -1,0 +1,51 @@
+baseurl = "https://faifaigai.github.io/"
+enableEmoji = true
+footnotereturnlinkcontents = "↩"
+googleAnalytics = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+languageCode = "en-us"
+theme = "hugo-classic"
+title = "田园猫的部落格"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = false
+hl_Lines = ""
+lineAnchors = ""
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+style = "monokai"
+tabWidth = 4
+
+[permalinks]
+post = "/post/:year/:month/:day/:slug/"
+
+[[menu.main]]
+name = "关于我"
+url = "/about/"
+weight = 1
+
+[[menu.main]]
+name = "归档"
+url = "/categories/"
+weight = 2
+
+[[menu.main]]
+name = "标签"
+url = "/tags/"
+weight = 3
+
+
+[params]
+custom_css = ["css/theme-override.css"]
+description = "A simple, minimal blog for those who love text."
+footer = """
+[联系我](QianY1943@outlook.com)
+"""
+customCSS = true
